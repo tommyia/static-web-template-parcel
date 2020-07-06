@@ -1,0 +1,17 @@
+{
+  "name": "static-web-template-with-parcel",
+  "version": "1.0.0",
+  "description": "Static web template using parcel.js, alpine.js, and tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/pages/index.html",
+    "build:tailwindcss": "npx tailwindcss build src/assets/css/tailwind.css -o src/assets/css/style.css"
+  },
+  "author": "tommy",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "tailwindcss": "^1.4.6"
+  }
+}
